@@ -1,24 +1,6 @@
 #include<iosteam>
 #include<cstring>
 
-class User{
-	private: 
-	string userName;
-	string userPassword;
-	bool validation;
-	
-	public:
-	User();
-	User(string name,string ps, bool val)
-	{
-		userName = name;
-		userPassword = ps
-		validation = val;
-	}
-	
-};
-
-
 
 class Driver : public User{
 	private :
